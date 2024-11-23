@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ứng dụng Điểm Danh Học Sinh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ứng Dụng Điểm Danh Học Sinh</h1>
+    <p>Quét mã QR trên thẻ học sinh để điểm danh.</p>
+
+    <div class="video-container">
+      <video id="video" width="320" height="240" autoplay></video>
+    </div>
+
+    <div id="result">
+      <p>Chưa quét mã QR</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
